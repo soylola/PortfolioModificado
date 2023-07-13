@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.contenedor{
+    width:100%;
+    max-width: 2000px;
+    margin:0 auto;
+}
+header{
+    height: auto;
+    background-color: #e3b0b0;
+    color: #966767;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 45%;
+}
+
+.cara{
+    border-radius: 50%;
+    height: 80%;
+}
+.uno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 65px);
+    background-color: #c19090;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    /* padding-top: 10%; */
+}
+.caja-central{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+.caja-cara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #424242;
+}
+.caja-presentacion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #F2F2F2;
+    color: #303030;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.dos{
+    background-color: #ffefef;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+}
+.aptitudes{
+    width: 50%;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.tech{
+    height: 90px;
+}
+
+.tres{
+    background-color: #303030;
+    height: 450px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items:center;
+    color: #F2F2F2;
+}
+.proyectos{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+}
+.card img{
+    width: 100%;
+}
+.card a, footer a {
+    color: #e3b0b0;
+}
+
+.red-social{
+    height: 60px;
+    background-color: #424242;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #F2F2F2;
+    height: 250px;
+}
+.contacto{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1000px) {
+    .caja-central{
+        width: 90%;
+        height: 70%;
+        flex-direction: column;
+    }
+    .caja-cara{
+        width: 100%;
+        height: 50%;
+    }
+    .caja-presentacion{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+    .aptitudes{
+        width: auto;
+    }
+    .dos{
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
+    .tres{
+        height: auto;
+    }
+    .proyectos{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .card{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .red-social{
+        margin: 0 10px 0 10px;
+    }
+}
